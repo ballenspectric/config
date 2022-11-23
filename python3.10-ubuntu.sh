@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo apt install libreadline-dev libssl-dev libbz2-dev libsqlite3-dev libuuid-dev
+sudo apt install libreadline-dev libssl-dev libbz2-dev libsqlite3-dev uuid-dev libffi-dev liblzma-dev
 
 git clone -b v3.10.8 https://github.com/python/cpython.git
 pushd cpython
